@@ -12,7 +12,7 @@ You can simply host your own api by cloning the git ->
 
     git clone https://github.com/adhiraj-ranjan/image-dimen-api
 
-and running `python main.py` [ Note : requirements - flask ]
+and running `python main.py` [ Note : requirements - flask & pillow]
 
 ### Find Me on :
 <p align="left">
