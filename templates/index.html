@@ -13,9 +13,17 @@
       <input type="submit" value="Submit" class="btn btn-info">
       </p>
     </form>
-    </div>
+    <h2>Get Image Dimension - Python POST Request Example</h2>
+      <pre>
+      import requests
 
-    <p><strong>
+      filePath = "path/to/imagefile"
+      file = {"file": open(filePath, "rb")}
+
+      response = requests.post('https://imagesize.itertools.repl.co/upload', files=file)
+
+      print(response.content)
+      </pre>
   </body>
 
 </html>
